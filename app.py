@@ -51,7 +51,7 @@ classes = {
 st.title("Traffic Sign Classification")
 st.text("Detection of 42 traffic sign with ease")
 st.markdown("Upload an image of the traffic sign")
-img=st.file_uploader("Upload an image of the sign")
+img=st.file_uploader("")
 submit = st.button('Predict')
 if submit:
 
