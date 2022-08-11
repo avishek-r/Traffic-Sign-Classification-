@@ -53,6 +53,11 @@ st.text("Detection of 42 traffic sign with ease")
 st.markdown("Upload an image of the traffic sign")
 img=st.file_uploader("")
 submit = st.button('Predict')
+st.sidebar.title('Developers Contact')
+st.sidebar.markdown('[![Avishek Rijal]'
+                        '(https://img.shields.io/badge/Author-Avishek--Rijal-lightgrey)]'
+                        '(https://www.linkedin.com/in/avishek-rijal-0430801b1/)')
+                        
 if submit:
 
 
